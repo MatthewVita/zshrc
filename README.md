@@ -1,6 +1,15 @@
 # zshrc
 My zshrc
 
+Contains:
+- nicoulaj theme (https://raw.githubusercontent.com/MatthewVita/zshrc/master/screenshot-1.PNG)
+- Vim mode (with the exception of a remapped <CTRL><R> for reverse search... old habit)
+- Git helpers and pretty git log: https://raw.githubusercontent.com/MatthewVita/zshrc/master/screenshot-2.PNG
+- History file appender
+- Convenience functions: `up`, `f` (quick find), `mkdircd`, `open` (file explorer opener)
+- Convenience aliases
+- Useful plugins (to me, anyway...)
+
 ## Setup
 
 Install zsh:
