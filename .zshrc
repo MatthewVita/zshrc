@@ -62,6 +62,9 @@ alias sl='ls'
 alias l='ls'
 alias dir='ls'
 
+# Clear alias
+alias cls='clear'
+
 # Use Vim mode in terminal
 set -o vi
 
