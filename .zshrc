@@ -16,10 +16,8 @@ plugins=(git docker grunt gulp spring vundle vi-mode npm pip mvn)
 # Init script
 source $ZSH/oh-my-zsh.sh
 
-# Use gvim as system editor
-export EDITOR='gvim'
-alias vi='gvim'
-alias vim='gvim'
+# Use vim as system editor
+export EDITOR='vim'
 
 # Quick find (https://matt.blissett.me.uk/linux/zsh/zshrc)
 f() {
@@ -68,9 +66,6 @@ alias c='clear'
 
 # Use Vim mode in terminal
 set -o vi
-
-# Sets reverse search to <CTRL><R>
-bindkey "^R" history-incremental-search-backward
 
 # Deletes git 'orig' files
 delOrig() {
