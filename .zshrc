@@ -77,3 +77,12 @@ alias open='gnome-open'
 
 # Complete newer files last (http://stackoverflow.com/a/171564/1525534)
 zstyle ':completion:*' file-sort modification reverse
+
+dk() {
+  echo 'going to kill all docker stuff...'
+  sleep 3
+  docker kill $(docker ps -q)
+  docker rm $(docker ps -a -q)
+  docker rmi $(docker images -q)
+  docker volume ls -qf dangling=true | xargs -r docker volume rm
+}
