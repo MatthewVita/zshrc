@@ -85,3 +85,6 @@ dk() {
 
 # Git Delete All But Master === GDABM
 alias gdabm="git branch | grep -v "master" | xargs git branch -D"
+
+# Nice alias for a common Docker command
+alias dcub="docker-compose up --build"
